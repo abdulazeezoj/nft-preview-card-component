@@ -39,6 +39,10 @@ body {
   color: white;
 }
 
+.link:hover {
+  color: #00fff7;
+}
+
 .nft-image {
   height: 74.13vw;
   width: 74.13vw;
