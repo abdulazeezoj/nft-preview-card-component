@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -153,7 +152,7 @@ body {
 
 .attribution a {
   text-decoration: none;
-  color: #2148e4;
+  color: #0004ff;
 }
 
 @media screen and (min-width: 480px) {
