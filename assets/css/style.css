@@ -51,7 +51,7 @@ body {
 .nft-image {
   height: 100%;
   width: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background-image: url("/assets/images/image-equilibrium.jpg");
   background-size: cover;
   background-repeat: repeat;
@@ -63,7 +63,7 @@ body {
   content: "";
   background: rgba(0, 255, 247, 0.5) url("/assets/images/icon-view.svg") center no-repeat;
   position: absolute;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   top: 0;
   left: 0;
   right: 0;
@@ -74,12 +74,12 @@ body {
 
 .nft-title {
   font-size: 1.38rem;
-  margin: 1rem 0rem;
+  margin-top: 1rem;
 }
 
 .nft-text {
   font-size: 1rem;
-  line-height: 1.7rem;
+  line-height: 1.48rem;
   margin: 1rem 0rem;
 }
 
@@ -87,7 +87,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0rem 0rem 1.375rem;
+  margin: 0rem 0rem 1rem;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -128,13 +128,13 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   border-top: 1px solid #2f415b;
-  padding: 1rem 0;
+  padding-top: 5vw;
 }
 
 .nft-author-ctn .icon {
   width: 2.25rem;
   height: 2.25rem;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   outline: 1.5px solid white;
   border-radius: 50%;
 }
@@ -163,6 +163,25 @@ body {
   .card-header {
     height: 303px;
     width: 303px;
+  }
+  .nft-title {
+    margin: 1.48rem 0rem;
+  }
+  .nft-info-ctn {
+    margin: 0rem 0rem 1.375rem;
+  }
+  .nft-author-ctn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    border-top: 1px solid #2f415b;
+    padding-top: 1.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
